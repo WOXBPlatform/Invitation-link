@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function getRandomLink() {
+            // List of URLs
+            const links = [
+                "https://woxb.com/register?code=O0NUIB4RIT5H",
+                "https://woxb.com/register?code=U0ADCYLZ7UNB",
+                "https://woxb.com/register?code=98HVU30GDHZJ",
+                "https://woxb.com/register?code=WWKLBVETALO7",
+                "https://woxb.com/register?code=MTJE773AHVSC",
+                "https://woxb.com/register?code=M653XMZ04AQ6"
+                           ];
+
+            
+            const randomIndex = Math.floor(Math.random() * links.length);
+            window.location.href = links[randomIndex];
+        }
+
+        // Call the function when the page loads
+        window.onload = getRandomLink;
+    </script>
+</head>
+</html>
